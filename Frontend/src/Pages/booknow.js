@@ -158,7 +158,7 @@ const handleSubmit = async (e) => {
               >
                 <option value="">Select Service</option>
                 <option value="oil change">Oil Change</option>
-                <option value="tire repair">Tire Repair</option>
+                <option value="tire repair">Tyre Repair</option>
                 <option value="brake service">Brake Service</option>
                 <option value="suspension service">Suspension Service</option>
                 <option value="battery replacement">Battery Replacement</option>
