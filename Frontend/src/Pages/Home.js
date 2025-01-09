@@ -23,7 +23,7 @@ function Home() {
   e.preventDefault();
   try {
     // Send form data to the backend
-    const response = await fetch('http://localhost:5000/api/send-appointment', {
+    const response = await fetch('https://robbsautomotive.onrender.com/api/send-appointment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
