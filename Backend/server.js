@@ -37,6 +37,7 @@ const sendEmail = (formData) => {
     Phone: ${formData.phone}
     Email: ${formData.email}
     Vehicle: ${formData.vehicle}
+    Vehicle RegoNumber: ${formData.vehicleNumber}
     Appointment Date: ${formData.appointmentDate}
     Service Required: ${formData.serviceRequired}
     Additional Notes: ${formData.additionalNotes}

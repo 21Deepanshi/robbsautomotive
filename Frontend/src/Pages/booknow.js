@@ -6,6 +6,7 @@ function BookNow() {
     phone: "",
     email: "",
     vehicle: "",
+    vehicleNumber: "",
     appointmentDate: "",
     serviceRequired: "",
     additionalNotes: "",
@@ -40,6 +41,7 @@ const handleSubmit = async (e) => {
         phone: '',
         email: '',
         vehicle: '',
+        vehicleNumber: '',
         appointmentDate: '',
         serviceRequired: '',
         additionalNotes: '',
@@ -119,6 +121,21 @@ const handleSubmit = async (e) => {
                 id="vehicle"
                 name="vehicle"
                 value={formData.vehicle}
+                onChange={handleChange}
+                className="w-full px-4 py-2 border border-gray-300 rounded-md"
+                required
+              />
+            </div>
+            {/* Additional filter */}
+            <div className="mb-4">
+              <label htmlFor="vehicleNumber" className="block text-left text-gray-700">
+                Vehicle Rego Number and State
+              </label>
+              <input
+                type="text"
+                id="vehicle"
+                name="vehicle"
+                value={formData.vehicleNumber}
                 onChange={handleChange}
                 className="w-full px-4 py-2 border border-gray-300 rounded-md"
                 required
